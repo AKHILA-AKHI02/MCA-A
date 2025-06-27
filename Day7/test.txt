@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Details Form</title>
+</head>
+<body>
+<script src="script2.js"></script>
+<h2>Personal Details Form</h2>
+<p>NAME: <input id="txtNAME"></p>
+<p>AGE: <input id="txtAGE"></p>
+<p>MOBILE NO: <input id="txtMOBILE NO"></p>
+<p>MAIL ID: <input id="txtMAIL ID"></p>
+<p>COURSE: <input id="txtCOURSE"></p>
+</br></br>
+
+<div class="button-group">
+<input type="submit" value="SUBMIT" onClick="submit_form()"/>
+<input type="reset" value="Clear" class="clear-btn">
+<input type="button" value="EXIT" class="exit-btn" onclick="window.close();">
+</div>
+</form>
+</div>
+<script type="text/javascript">
+function submit_form(){
+alert("SUBMIT Succesfully");
+}
+function create(){
+window.location="signup.html";
+}
+</script></body>
+ </body>
+</html>
+
